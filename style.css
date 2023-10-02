@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+body {
+    color: #1E1E1E;
+    font-size: 14px;
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    line-height: 1.7;
+    letter-spacing: 0.05em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.inner {
+    max-width: 960px;
+    width: 86.48%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px;
+}
+
+.about {
+    background-image: url(images/bg_main.png);
+    background-size: cover;
+    width: 86.48%;
+    height: 586px;
+    margin: auto;
+}
+
+.about-text {
+    background-color: #FFFFFF;
+    width: 343px;
+    padding: 40px;
+}
+
+.about-text p {
+    font-size: 18px;
+
+}
+
+.discussion {
+    margin: 100px 0;
+}
+
+.discussion p {
+    background-color: #72C9F3;
+    color: #FFFFFF;
+    text-align: center;
+    width: 194px;
+    margin: auto;
+}
+
+.discussion h2 {
+    text-align: center;
+}
+
+.discussion-item {
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    padding: 100px;
+}
+
+dl {
+    display: flex;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Founding {
+    border-bottom: none;
+}
+
+@media only screen and (min-width: 640px) {
+
+    .discussion-all {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .discussion-item {
+        width: 46%;
+    }
+}
